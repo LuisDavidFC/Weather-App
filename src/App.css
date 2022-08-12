@@ -5,25 +5,26 @@
     box-sizing: inherit;
 }  
 body {
-    margin: 5px;
+    margin: 10px;
     background-image: url("./assets/clouds-gefdda90d9_1920.jpg");
     background-repeat: no-repeat, no-repeat;
     display: grid;
     justify-content: center;
     justify-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 90vh;
+    width: 90vw;
     text-shadow: 0 0 1px black;
     color: white;
 }
 .card {
     display: block;
     position: relative;
-    margin: 5px;
+    width: 100vh;
+    margin: 10px;
     padding: 5px;
     border-radius: 20px;  
     width: 300px;
-    height: 550px;
+    height: 500px;
     aspect-ratio: 0.6;
     border: 1px solid rgba(31, 28, 36, 0.934);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.888);

@@ -30,7 +30,7 @@ const CardWeather = ({ lat, lon }) => {
     }
   }, [lat, lon]);
 
-  console.log(weather);
+  //console.log(weather);
   const handleClick = () => setIsCelsius(!isCelcius);
 
   if (isLoading) {
